@@ -719,6 +719,24 @@ video {
 
 .max-w-6xl {
   max-width: 72rem;
+.w-8 {
+  width: 2rem;
+}
+
+.w-9\/12 {
+  width: 75%;
+}
+
+.w-9 {
+  width: 2.25rem;
+}
+
+.w-10\/12 {
+  width: 83.333333%;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .border-collapse {
