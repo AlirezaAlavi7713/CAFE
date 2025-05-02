@@ -6,7 +6,8 @@
   "scripts": {
     "build": "postcss src/css/styles.css -o public/styles.css",
     "watch": "postcss src/css/styles.css -o public/styles.css --watch",
-    "start": "live-server public"
+    "start": "live-server public",
+    "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
   "author": "Your Name",
   "license": "MIT",

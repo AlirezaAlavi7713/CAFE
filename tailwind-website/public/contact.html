@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../src/output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="dark:bg-gray-900">
+    <header class="bg-white shadow">
+        <nav class="container mx-auto p-4">
+            <ul class="flex space-x-4">
+                <li><a href="./index.html" class="hover:text-blue-500">Accueil</a></li>
+                <li><a href="./carte.html" class="hover:text-blue-500">Notre Carte</a></li>
+                <li><a href="./contact.html" class="hover:text-blue-500">Contact</a></li>
+                <li><a href="#" class="hover:text-blue-500">Événements</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <section class="py-16">
+        <div class="max-w-6xl mx-auto p-4 md:p-16 xl:p-20">
+          <div class="lg:w-2/3 space-y-5 text-center mx-auto">
+
+            <h1 class="text-gray-800 uppercase tracking-widest dark:text-white font-medium text-4xl">Contactez-Nous</h1>
+            <div class="h-0.5 bg-red-500 w-14 mx-auto"></div>
+            <p class="text-gray-400 dark:text-gray-300 text-base leading-6">Une question, une envie de café ? Parlons-en autour d'une tasse.</p>
+            
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-16">
+            <div>
+                <address>
+                    <div class="mb-6">
+                        <h2 class="text-base font-medium mb-2 dark:text-white">L'address Numero 1 :</h2>
+                        <p class="text-gray-400 dark:text-gray-300 text-sm font-medium leading-5">
+                           Louvre lens vallée,84 rue paul Bert<br>62000 lens
+                        </p>
+                    </div>
+                    <div class="mb-6">
+                        <h2 class="text-base font-medium mb-2 dark:text-white">L'address Numero 2 :</h2>
+                        <p class="text-gray-400 dark:text-gray-300 text-sm font-medium leading-5">
+                           47 rue barthélémy delespaul<br>59000 Lille
+                        </p>
+                    </div>
+                    <div class="mb-6">
+                        <h2 class="text-base font-medium mb-2 dark:text-white">L'address Numero 3 :</h2>
+                        <p class="text-gray-400 dark:text-gray-300 text-sm font-medium leading-5">
+                           33 BD de générale leclerc 1er étage<br>59100 Roubaix
+                    </div>
+                </address>
+            </div>
+            <div class="lg:col-span-2">
+                <form action="">
+                    <div class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <label for="name" class="sr-only">Name</label>
+                            <input 
+                              type="text"
+                              name="name"
+                              id="name"
+                              class="form-input"
+                              placeholder="rentrez vos noms et prénoms"
+                            />
+                            <label for="email" class="sr-only">Email</label>
+                            <input 
+                              type="amail"
+                              name="email"
+                              id="email"
+                              class="form-input"
+                              placeholder="rentrez votre email"
+                            />
+                        </div>
+                        <label for="subject" class="sr-only">Sujet</label>
+                            <input 
+                              type="text"
+                              name="subject"
+                              id="subject"
+                              class="form-input"
+                              placeholder="rentrez votre Sujet"
+                            />
+                            <label for="subject" class="sr-only">Commentaire</label>
+                            <textarea 
+                              name="commentaire"
+                              id="commentaire"
+                              class="form-input"
+                              placeholder="Mettez votre commentaire"
+                              rows="3"
+                            ></textarea>
+                            <div class="text-right">
+                                <input
+                                 type="submit"
+                                 id="submit"
+                                 name="Envoyer"
+                                 class="btn-primary"
+                                 value="send message"
+                                 >
+                            </div>
+                    </div>
+                </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+</body>
+</html>
